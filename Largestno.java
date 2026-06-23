@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+record Largestno() {
+    public static void main(String[] args) {
+        Scanner out = new Scanner(System.in);
+        int a = out.nextInt();
+        int b= out.nextInt();
+        int c = out.nextInt();
+        if(a>b && a>c){
+            
+            System.out.println(a);
+        
+        }
+        else if(b>a && b>c){
+            
+                System.out.println(b);
+        }
+        else{
+            System.out.println(c);
+        }
+    }
+    
+}
