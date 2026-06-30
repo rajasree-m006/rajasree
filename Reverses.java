@@ -13,6 +13,10 @@ public class Reverses {
             nums[i]=nums[n-1-i];
             nums[n-1-i]=temp;
         }
+        for(int nu : nums){
+            System.err.println(nu+" ");
+        }
+    in.close();
     }
     
 }

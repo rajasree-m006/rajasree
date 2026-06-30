@@ -23,5 +23,6 @@ public class Switchcase {
                 System.out.println("Default case");
                 break;
         }
+    in.close();
     }
 }

@@ -10,6 +10,7 @@ public class Simple {
         int a=p*si;
         System.out.println(si);
         System.out.println(a);
+        in.close();
 
     }
 }
