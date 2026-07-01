@@ -18,6 +18,7 @@ record Largestno() {
         else{
             System.out.println(c);
         }
+        out.close();
     }
     
 }
